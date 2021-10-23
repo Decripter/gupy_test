@@ -34,9 +34,18 @@ def sel_moto(moto=rd.randrange(1, 6)):
         imprime_motos(2, moto) #os demais motoboys tem a mesma comissao
     print("")
 
-
-sel_moto() 
 #inserir um valor entre 1 - 5 
 #se não inserir nenhum valor ou valores diferentes o sistema fará um sorteio entre os motoboys disponíveis
+
+sel_moto() #pode inserir o numero do motoboy diretamente dentro dos parênteses
+
+# ou se preferir que apareca uma mensagem pedindo para o usuário inserir o número, 
+# adicione uma cerquilha a sel_moto() acime e remova as cerquilhas '#' das 5 linhas abaixo:
+
+#op = input("Digite o numero do motoboy") 
+#if op == "":
+#    sel_moto()
+#else:
+#    sel_moto(op)
 
 
